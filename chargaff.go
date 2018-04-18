@@ -68,7 +68,7 @@ func main() {
 	bar := ("| " + " --- " + " | " + " --- " +  " | " + " --- " +  " | " + " --- " +  " | " + " --- " +  " | " + " --- " +  " | " + " --- " +  " | " + " --- " +  " |")
     row := 	("| " + sa + " | " + sg +  " | " + sc +  " | " + st +  " | " + sadt +  " | " + sgdc +  " | " + sgc +  " | " + sat +  " |")
 	
-    err = ioutil.WriteFile("output.md", []byte(title + "\n\n" + bpair + "bp" + "\n\n" + head + "\n" + bar + "\n" + row + "\n"), 0666)
+    err = ioutil.WriteFile("table.md", []byte(title + "\n\n" + bpair + "bp" + "\n\n" + head + "\n" + bar + "\n" + row + "\n"), 0666)
     if err != nil {
         log.Fatal(err)
     }	
