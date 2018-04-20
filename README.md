@@ -16,7 +16,7 @@ Then to build `chargaff.exe` move to the package directory and type:
 
 ## *sequence*`.fasta`
 
-The DNA sequence input must be in [FASTA format](https://en.wikipedia.org/wiki/FASTA_format). FASTA format begins with a single-line description followed by lines of ascii characters representing the sequence of nucleobases .) The description line is distinguished from the sequence data by a greater-than (">") symbol at the beginning. All lines of text should be shorter than 80 characters in length. Blank lines are not allowed in the middle of FASTA input. Place this input file in the same directory as `chargaff.exe`. If you clone the github repository, you will also get a sample FASTA input file (5.4 KB), `phi.fasta`, representing the complete DNA genome of [Bacteriophage phiX174](http://pdb101.rcsb.org/motm/2) . 
+The DNA sequence input must be in [FASTA format](https://en.wikipedia.org/wiki/FASTA_format). FASTA format begins with a single-line description followed by lines of ascii characters representing the sequence of nucleobases . The description line is distinguished from the sequence data by a greater-than (">") symbol at the beginning. All lines of text should be shorter than 80 characters in length. Blank lines are not allowed in the middle of FASTA input. Place this input file in the same directory as `chargaff.exe`. If you clone the github repository, you will also get a sample FASTA input file (5.4 KB), `phi.fasta`, representing the DNA sequence of the complete genome of [Bacteriophage phiX174](http://pdb101.rcsb.org/motm/2) . 
 
 ## Command Syntax
 
