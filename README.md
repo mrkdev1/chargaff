@@ -8,7 +8,7 @@ The program **chargaff** calculates the percentages of the nucleobases (cytosine
 
 The program's source is written in the [Go](https://golang.org/) language. After installing Go and organizing a workspace environment as described in ["How to Write Go Code"](https://golang.org/doc/code.html) , you can create a new package directory named `chargaff` and clone the repository `https://github.com/mrkdev1/chargaff.git` into this directory. If you keep your source code in a GitHub repository, and you have a [GitHub](https://github.com/) account at github.com/*user*, and are using the default the GOPATH environmental variable, the location of the package on a Windows system would be:
 
-`C:\Go\src\github.com\*user*\chargaff`
+`C:\Go\src\github.com\`*user*`\chargaff`
 
 Then to build `chargaff.exe` move to the package directory and type:
 
